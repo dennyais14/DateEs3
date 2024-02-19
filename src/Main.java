@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         String date1 = "2023-03-01T13:00:00Z";
         OffsetDateTime data1 = OffsetDateTime.parse(date1);
-        String anno = data1.format(DateTimeFormatter.ofPattern("YYYY"));
+        String anno = data1.format(DateTimeFormatter.ofPattern("yyyy"));
         System.out.println(anno);
         String mese = data1.format(DateTimeFormatter.ofPattern("MMMM"));
         System.out.println(mese);
